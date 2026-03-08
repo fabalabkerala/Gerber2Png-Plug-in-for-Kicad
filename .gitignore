@@ -1,2 +1,4 @@
 # Ignore all .zip files
 *.zip
+releases/
+*.py
