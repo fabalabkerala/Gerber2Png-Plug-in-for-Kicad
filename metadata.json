@@ -3,7 +3,7 @@
     "name": "gerber2png Plug-in for KiCad",
     "description": "Export Gerber, IPC netlist, BOM, and pick-and-place files, then open Gerber2Png in one click.",
     "description_full": "This plugin exports manufacturing files from the active KiCad PCB project and opens Gerber2Png web app for upload and preview.\n\nGenerated files:\n1. Gerber production files\n2. IPC-356 netlist\n3. BOM (including designator, quantity, MPN/part number, and package/footprint fields when available)\n4. Pick-and-place (component position) file\n\nUse this plugin to quickly prepare fabrication and assembly data with a consistent output format.",
-    "identifier": "com.github.fabalabkerala.gerber2png-plugin-for-kicad",
+    "identifier": "com.github.fablabkerala.gerber2png-plugin-for-kicad",
     "type": "plugin",
     "author": {
         "name": "gerber2png",
@@ -23,8 +23,8 @@
     },
     "versions": [
         {
-            "version": "0.1.0",
-            "status": "development",
+            "version": "1.0.0",
+            "status": "stable",
             "kicad_version": "6.00"
             
         }
