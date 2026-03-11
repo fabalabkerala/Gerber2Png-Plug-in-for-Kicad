@@ -27,6 +27,8 @@ The plugin prepares these files before upload:
 - `BOM.csv`
 - `PnP_positions.csv`
 
+a zip folder will be made by this plugin inside your project folder, that contans all the mentioned files above, check out the example in the bellow image 
+![alt text](media/gerber-files.png)
 ## Installation
 
 ### Manual installation (current method)
@@ -52,6 +54,8 @@ Installation from the official KiCad plugin repository is not available yet.
 4. Gerber2Png receives the ZIP and loads your project.
 5. Continue in Gerber2Png to generate milling-ready PNG outputs.
 
+Note:- As part of the security your browser will ask you to allow access for the plugin.  it will be only a onetime ask then you don't need to mind   
+![alt text](media/browser-allow.png)
 ## Compatibility
 
 - KiCad: 6, 7, 8, 9
@@ -68,8 +72,8 @@ Gerber2Png is developed by [Fab Lab Kerala](https://github.com/fabalabkerala) an
 
 ## Credits
 
-- Plugin author: Saheen Palayi
-- Contributor: Midlaj N
+- Plugin author: [Saheen Palayi](https://saheenpalayi.com/)
+- Contributor: [Midlaj N](https://github.com/MidlajN)
 
 ## License
 
